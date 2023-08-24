@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* Apply */
+.item-nav-mid {
+   @apply mr-4 border border-transparent rounded-sm px-2 py-1; 
+}
+
+.item-nav-mid:hover {
+   @apply border-white;
+}
+
+
