@@ -38,8 +38,8 @@ const NavBar = () => {
                     <p className="font-extrabold">Prime</p>
                 </div>
                 <div className="pb-1 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:top-0 md:relative order-1 md:order-none md:flex">
-                    <i className="fas fa-shopping-cart flex text-2xl md:mr-2"></i>
-                    <span className="bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center h-6 w-6 bg-darkblue-600 rounded-full">0</span>
+                    <i className="fas fa-shopping-cart flex text-2xl md:mr-4"></i>
+                    <span className="bold text-gold-200 text-base absolute top-2 left-0 -mt-1 ml-3 text-center h-6 w-6 bg-darkblue-600 rounded-full md:mr-4">0</span>
                     <span className="hidden md:flex text-xs font-extrabold">Carrinho</span>
                 </div>
             </div>

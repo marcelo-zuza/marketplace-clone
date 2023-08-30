@@ -153,16 +153,16 @@ const Main = () => {
                     <div className="hidden md:block my-6">
                         <img src={BannerPromo} alt="banner" />
                     </div>
-                    <div className="flex flex-col md:flex-row items-center my-8 py-1">
+                    <div className="flex flex-col -mt-4 md:flex-row items-center md:my-8 md:py-1">
                         <p className="font-bold md: w-3/4 text-center md:border-r-2 border-gray-300 leading-5 pr-2 mt-10 md:mt-0">
                             Assine o Amazon Prime para ter benefícios de leitura com o Prime Reading, frete gratis sem valor mínimo de compra e muito mais. Apenas R$ 9,90/mês
                         </p>
-                        <a href="#" className="text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-10 h-12 md:h-8 block md:flex items-center w-full md:w-auto text-center">Teste GRÁTIS por 30 dias</a>
+                        <a href="#" className="text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded mr-2 px-3 py-3 my-6 md:my-0 md:py-0 md:ml-10 h-12 md:mr-0 md:h-8 block md:flex items-center w-full md:w-auto text-center">Teste GRÁTIS por 30 dias</a>
                     </div>
                     {/* Categories */}
                     <div className="flex flex-col px-6 pb-8 border-b border-gray-300">
                         <h3 className="text-center md:text-left text-xl font-bold mb-4">Encontre ofertar por categoria</h3>
-                        <ul className="flex flex-wrap md:flex-nowrap px-2 text-xs font-bold">
+                        <ul className="grid grid-cols-2 md:flex flex-nowrap px-2 text-xs font-bold">
                             <li className="text-center mx-3 mb-4 md:mb-0">
                                 <img src={Cat1} alt="cat1" className="rounded w-full md:w-75px mb-2 mx-auto" />
                                 <a href="#">Todas as ofertas</a>
